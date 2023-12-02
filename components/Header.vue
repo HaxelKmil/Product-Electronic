@@ -56,18 +56,19 @@ const logout = async () => {
 
       <!-- Collapsible navigation container -->
       <div
-        class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+        class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto pl-24"
         id="navbarSupportedContent12"
         data-te-collapse-item
       >
         <!-- Logo -->
         <img
-          src="../public/images/icons/img.png"
+          src="../public/images/icons/logo10.png"
           style="height: 50px"
           alt="TE Logo"
           loading="lazy"
         />
         <!-- Left navigation links -->
+        <h3 class="text-white pl-4">Product Electronic</h3>
         <ul
           class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
           data-te-navbar-nav-ref
@@ -76,6 +77,7 @@ const logout = async () => {
             <nuxt-link
               to="/"
               class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+              style="margin-left: 50vh;"
               >Home</nuxt-link
             >
           </li>
@@ -88,16 +90,17 @@ const logout = async () => {
             >
           </li>
           <!-- Projects link -->
-          <!-- <li class="mb-4 lg:mb-0 lg:pr-2 mt-2" data-te-nav-item-ref>
+          <li class="mb-4 lg:mb-0 lg:pr-2 mt-2" data-te-nav-item-ref>
             <nuxt-link
-              to="/products"
+              to="/"
               class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
               >Product</nuxt-link
             >
-          </li> -->
+          </li>
           <li class="mb-4 lg:mb-0 lg:pr-2 mt-2" data-te-nav-item-ref>
             <NuxtLink
               to="/login"
+              style="margin-left: 50vh;"
               class="text-base bg-blue-600 px-6 py-2 text-white rounded-lg hover:bg-blue-600/80"
               >Login</NuxtLink
             >

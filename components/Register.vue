@@ -92,7 +92,7 @@ const submitRegister = async () => {
       </div>
       <button
         type="submit"
-        class="w-full flex justify-center items-center text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-6"
+        class="w-full flex justify-center items-center text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-6"
       >
         <span v-if="!isLoading">Sign up to your account</span>
         <div v-else role="status">
@@ -117,7 +117,7 @@ const submitRegister = async () => {
       </button>
       <div class="text-sm font-medium text-gray-500">
         Already have an Account ?
-        <NuxtLink to="/login" class="text-blue-700 hover:underline"
+        <NuxtLink to="/login" class="text-green-700 hover:underline"
           >Sign in</NuxtLink
         >
       </div>

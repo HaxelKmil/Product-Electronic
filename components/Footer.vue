@@ -78,7 +78,7 @@ import { compileStyle } from 'vue/compiler-sfc';
     <a
       class="text-neutral-800 dark:text-neutral-400"
       href="https://tailwind-elements.com/"
-      >Tailwind Elements</a
+      >Mochammad Hazel Kamil</a
     >
   </div>
 </footer>
